@@ -137,3 +137,47 @@ h3.font {
     margin-top: 25px;
     margin-bottom: 45px;
 }
+
+.productive{
+    width: 1140px;
+    height: 317px;
+    padding-top: 50px;
+    padding-left:80px;
+    padding-bottom: 20px;
+    padding-right: 80px;  
+    background-color:#e4e3ff;
+   margin: 0 auto;
+   align-items:center;
+   border-radius: 30px;
+
+}
+.center-subtitle{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 856px;
+    height: 121px;
+gap:158px;
+}
+.center-title{
+    text-align: center;
+     font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+   
+}
+.pro {
+    font-size: 90px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.subtitle2{
+    width: 180px;
+    height: 121px;
+    margin: 10px;
+}
+.cl {
+    font-size: 20px;
+    font-weight:normal;
+    color:#77777d;
+}
