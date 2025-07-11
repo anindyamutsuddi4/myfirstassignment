@@ -1,4 +1,4 @@
-.raleway-rale> {
+.raleway-rale {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 
@@ -9,9 +9,10 @@
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
+
 }
 
-.inter-intero> {
+.inter-intero {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 
@@ -20,12 +21,12 @@
 
 h3.font {
     font-size: 34px;
-    font-weight: 150;
+    font-weight: 900;
     color: #4E47FF;
 
 }
 
-.sign {
+button.sign {
     height: 48px;
     width: 132px;
     text-align: center;
@@ -34,7 +35,7 @@ h3.font {
     border-radius: 10px;
 }
 
-.sigp {
+button.sigp {
 
     height: 48px;
     width: 174px;
@@ -43,6 +44,23 @@ h3.font {
     border: none;
     border-radius: 10px;
     margin-bottom: 0px;
+}
+
+button.sigm {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+
 }
 
 .logo {
@@ -263,4 +281,139 @@ textarea {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 
+}
+
+.foot1 {
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.12);
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.foot {
+
+    border: #252432;
+    height: 229px;
+    width: 531px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.lego {
+
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+
+}
+
+.mego {
+    height: 121px;
+    width: 290px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.para {
+    width: 531px;
+    height: 56px;
+    color: #8987A1;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.mara {
+    text-align: center;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    color: #8987A1;
+}
+
+.last a {
+    color: #8987A1;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.feedback {
+    width: 1140px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.say {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+.design {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.design1 {
+    padding: 24px;
+    height: 220px;
+    width: 342px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+}
+
+.design2 {
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+
+.design4 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 24px;
+}
+
+.design5 {
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+}
+
+.design6 {
+    font-size: 19px;
+}
+
+.star {
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+.date {
+    color: #9999a0;
 }
